@@ -14,6 +14,8 @@
     /* Champagne/Off-white - Main background */
     --color-glass: rgba(255, 255, 255, 0.8);
 
+    --color-offwhite-mobile: #f3e2dd;
+
     /* Neutrals */
     --color-text-dark: #5B5B5B;
     /* Cinza Grafite - Main tex */
@@ -767,7 +769,7 @@ ul {
     }
 
     #header::before {
-        background-color: #F9F1EF;
+        background-color: var(--color-offwhite-mobile);
         /* Slightly darker on mobile */
     }
 }
