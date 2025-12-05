@@ -455,12 +455,13 @@ ul {
 }
 
 .check-list li::before {
-    content: "✔️";
-    /* Could replace with SVG for cleaner look */
-    color: var(--color-primary);
-    font-weight: bold;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
     margin-right: 15px;
-    font-size: 1.2rem;
+    flex-shrink: 0;
 }
 
 /* Antes e Depois Section */
@@ -632,8 +633,8 @@ ul {
 }
 
 .footer h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 2px;
 }
 
 .tagline {
@@ -641,6 +642,12 @@ ul {
     opacity: 0.9;
     margin-bottom: 20px;
     font-style: italic;
+}
+
+.brand-col h4 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
 }
 
 .brand-col .desc {
@@ -757,6 +764,11 @@ ul {
     .nav-menu a {
         font-size: 1.1rem;
         /* Slightly smaller font */
+    }
+
+    #header::before {
+        background-color: #F9F1EF;
+        /* Slightly darker on mobile */
     }
 }
 
