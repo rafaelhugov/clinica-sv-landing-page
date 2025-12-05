@@ -187,8 +187,28 @@ ul {
 }
 
 .logo img {
-    height: 50px;
+    height: 55px; /* Slightly larger logo */
     width: auto;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1;
+}
+
+.clinic-label {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: var(--color-text-dark);
+}
+
+.doctor-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem; /* Increased size significantly */
+    color: var(--color-primary); /* Highlighted brand color */
+    font-weight: 700;
 }
 
 .nav-menu ul {
