@@ -180,14 +180,16 @@ ul {
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
+    /* Reduced gap */
     position: relative;
     z-index: 20;
     /* Above Background */
 }
 
 .logo img {
-    height: 55px; /* Slightly larger logo */
+    height: 70px;
+    /* Increased size for better proportion */
     width: auto;
 }
 
@@ -206,8 +208,10 @@ ul {
 
 .doctor-name {
     font-family: 'Playfair Display', serif;
-    font-size: 1.6rem; /* Increased size significantly */
-    color: var(--color-primary); /* Highlighted brand color */
+    font-size: 1.6rem;
+    /* Increased size significantly */
+    color: var(--color-primary);
+    /* Highlighted brand color */
     font-weight: 700;
 }
 
